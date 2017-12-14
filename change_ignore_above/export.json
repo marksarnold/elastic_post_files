@@ -1,0 +1,240 @@
+{
+  "log4j2-generic" : {
+    "aliases" : { },
+    "mappings" : {
+      "doc" : {
+        "properties" : {
+          "@timestamp" : {
+            "type" : "date"
+          },
+          "@version" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "beat" : {
+            "properties" : {
+              "hostname" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "type" : "keyword",
+                    "ignore_above" : 256
+                  }
+                }
+              },
+              "name" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "type" : "keyword",
+                    "ignore_above" : 256
+                  }
+                }
+              },
+              "version" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "type" : "keyword",
+                    "ignore_above" : 256
+                  }
+                }
+              }
+            }
+          },
+          "class" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "customer" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "file" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "host" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "line" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_class" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_loglevel" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_message_ln1" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_message_ln2" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_message_rest" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_root_cause" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log4j_thread" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "log_ts" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "message" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "method" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "offset" : {
+            "type" : "long"
+          },
+          "source" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "tags" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "tier" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "type" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          }
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "creation_date" : "1513292079203",
+        "number_of_shards" : "5",
+        "number_of_replicas" : "1",
+        "uuid" : "4mWXgMxSSOW1odN53z-Zjg",
+        "version" : {
+          "created" : "6010099"
+        },
+        "provided_name" : "log4j2-generic"
+      }
+    }
+  }
+}
